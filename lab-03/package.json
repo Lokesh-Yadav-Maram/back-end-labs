@@ -1,10 +1,10 @@
 {
   "engines": {
-    "node": "22.x"
+    "node": "20.x"
   },
-  "name": "lab-02-sqlite-crud",
+  "name": "lab-03-rest-api",
   "version": "1.0.0",
-  "description": "Lab 2: SQLite database and CRUD routes",
+  "description": "Lab 3: REST API, Query Parameters, Validation and Debugging",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
