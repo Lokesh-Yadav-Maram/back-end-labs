@@ -30,6 +30,11 @@ const initializeDBAndServer = async () => {
 
 initializeDBAndServer();
 
+// Root route
+app.get("/", (request, response) => {
+    response.status(200).send("Lab 03 REST API is running. Access /books to view the books API.");
+});
+
 // GET all books with search, sorting, pagination and price filtering
 app.get("/books", async (request, response) => {
     try {
